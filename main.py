@@ -1589,7 +1589,7 @@ class ChessBoard:
         return result
 
     def play_game(self, mode='AUTO'):
-        self.write_file = open('C:\\Users\\jtims\\PycharmProjects\\Chess 2Game_moves.txt', 'a+')
+        self.write_file = open('C:\\Users\\jtims\\PycharmProjects\\Chess 2\\Game_moves.txt', 'a+')
         if mode == 'AUTO':
             recorded_moves = ChessBoard.read_moves_from_file()
             self.recorded_moves = []
